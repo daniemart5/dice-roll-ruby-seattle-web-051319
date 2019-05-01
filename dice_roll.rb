@@ -1,4 +1,5 @@
 def roll(integer)
-  puts integer(1 + rand(7)).to_i
+  num = [1,2,3,4,5,6]
+  puts num(rand(7))
   return roll
 end
